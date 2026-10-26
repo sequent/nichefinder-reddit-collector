@@ -1,0 +1,180 @@
+# Reddit rules for niche evidence.
+#
+# Each niche is searched inside a small set of public, on-topic subreddits.
+# `query` narrows the search; if omitted, the query from queries.yaml is used.
+# Subreddit names must be public and readable through the official OAuth API.
+rules:
+  ai_agents:
+    query: AI agent
+    subreddits: [AI_Agents, LocalLLaMA, ArtificialInteligence, automation]
+  ai_content:
+    query: AI content
+    subreddits: [AIContent, Copywriting, artificial, SEO]
+  ai_automation:
+    query: workflow automation
+    subreddits: [automation, nocode, AI_Agents, Zapier]
+  shopify:
+    query: Shopify app
+    subreddits: [shopify, ecommerce, dropship]
+  wordpress:
+    query: WordPress plugin
+    subreddits: [Wordpress, ProWordPress, webdev]
+  chrome_extension:
+    query: Chrome extension
+    subreddits: [chrome_extensions, webdev, javascript]
+  newsletter:
+    query: newsletter platform
+    subreddits: [newsletters, Substack, EmailMarketing]
+  seo:
+    query: SEO tool
+    subreddits: [SEO, bigseo, juststart]
+  marketing:
+    query: marketing automation
+    subreddits: [marketing, digital_marketing, PPC, SEO]
+  fintech:
+    query: personal finance app
+    subreddits: [fintech, personalfinance, Banking]
+  trading:
+    query: stock trading app
+    subreddits: [algotrading, stocks, investing]
+  health:
+    query: health app
+    subreddits: [HealthIT, digitalhealth, QuantifiedSelf]
+  education:
+    query: learning app
+    subreddits: [edtech, Teachers, learnprogramming]
+  legal:
+    query: legal software
+    subreddits: [law, LegalAdvice, paralegal]
+  hr:
+    query: HR software
+    subreddits: [humanresources, AskHR, recruiting]
+  productivity:
+    query: productivity app
+    subreddits: [productivity, Notion, ObsidianMD]
+  analytics:
+    query: analytics dashboard
+    subreddits: [analytics, BusinessIntelligence, dataengineering]
+  devtools:
+    query: developer tools
+    subreddits: [devops, programming, selfhosted, webdev]
+  no_code:
+    query: no-code app builder
+    subreddits: [nocode, Bubbleio, Notion]
+  travel:
+    query: travel app
+    subreddits: [travel, solotravel, TravelHacks]
+  food:
+    query: food delivery app
+    subreddits: [restaurateurs, foodtrucks, food]
+  fitness:
+    query: fitness app
+    subreddits: [fitness, personaltraining, homegym]
+  dating:
+    query: dating app
+    subreddits: [dating_advice, OnlineDating, dating]
+  gaming:
+    query: gaming platform
+    subreddits: [gamedev, gaming, IndieDev]
+  crypto:
+    query: crypto wallet
+    subreddits: [CryptoCurrency, Bitcoin, ethfinance]
+  cybersecurity:
+    query: cybersecurity software
+    subreddits: [cybersecurity, netsec, sysadmin]
+  customer_support:
+    query: helpdesk software
+    subreddits: [CustomerSuccess, sysadmin, SaaS]
+  sales:
+    query: sales lead generation
+    subreddits: [sales, Salesforce, SaaS]
+  real_estate:
+    query: real estate app
+    subreddits: [realestate, PropertyManagement, RealEstateTechnology]
+  dropshipping:
+    query: dropshipping
+    subreddits: [dropshipping, ecommerce, Shopify]
+  amazon_fba:
+    query: Amazon FBA
+    subreddits: [AmazonFBA, FulfillmentByAmazon, ecommerce]
+  community:
+    query: community platform
+    subreddits: [community, SaaS, Circle]
+  booking:
+    query: appointment scheduling software
+    subreddits: [smallbusiness, entrepreneur, salonowners]
+  crm:
+    query: CRM software
+    subreddits: [CRM, salesforce, smallbusiness]
+  project_management:
+    query: project management software
+    subreddits: [projectmanagement, Notion, productivity]
+  accounting:
+    query: accounting software
+    subreddits: [accounting, Bookkeeping, smallbusiness]
+  recruiting:
+    query: recruiting software
+    subreddits: [recruiting, humanresources, cscareerquestions]
+  directory:
+    query: business directory
+    subreddits: [smallbusiness, juststart, SEO]
+  affiliate:
+    query: affiliate marketing
+    subreddits: [affiliate_marketing, juststart, blogging]
+  ads:
+    query: advertising platform
+    subreddits: [PPC, advertising, marketing]
+  creator:
+    query: creator monetization
+    subreddits: [NewTubers, CreatorEconomy, youtubers]
+  pet:
+    query: pet app
+    subreddits: [pets, dogtraining, petadvice]
+  parenting:
+    query: parenting app
+    subreddits: [Parenting, Mommit, daddit]
+  automotive:
+    query: car app
+    subreddits: [cars, MechanicAdvice, Automotive]
+  logistics:
+    query: logistics software
+    subreddits: [logistics, supplychain, Truckers]
+  manufacturing:
+    query: manufacturing software
+    subreddits: [manufacturing, CNC, smallbusiness]
+  agriculture:
+    query: farming app
+    subreddits: [farming, agriculture, homestead]
+  energy:
+    query: energy management software
+    subreddits: [energy, solar, RenewableEnergy]
+  api:
+    query: API platform
+    subreddits: [api, webdev, programming]
+  data:
+    query: data platform
+    subreddits: [dataengineering, datascience, dataisbeautiful]
+  design:
+    query: design tool
+    subreddits: [design, UI_Design, userexperience]
+  video:
+    query: video editing tool
+    subreddits: [videoediting, editors, YouTubeCreators]
+  audio:
+    query: audio tool
+    subreddits: [audioengineering, podcasting, WeAreTheMusicMakers]
+  social_media:
+    query: social media tool
+    subreddits: [socialmedia, SocialMediaMarketing, Instagram]
+  marketplace:
+    query: online marketplace
+    subreddits: [marketplace, ecommerce, SaaS]
+  ecommerce:
+    query: ecommerce platform
+    subreddits: [ecommerce, Shopify, dropship]
+  vertical_saas:
+    query: vertical SaaS
+    subreddits: [SaaS, smallbusiness, startups]
+  micro_saas:
+    query: micro SaaS
+    subreddits: [SaaS, microsaas, indiehackers]
